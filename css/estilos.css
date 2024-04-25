@@ -1,0 +1,143 @@
+
+body {
+  background-color: #b5cfff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Esto asegura que el contenido ocupe al menos el 100% de la altura de la ventana del navegador */
+}
+.logo img {
+  width: 55px; 
+  margin: 0;
+  border-radius: 50px;
+}
+
+.navbar {
+  background-color: #110b38; 
+  border-bottom: 5px solid #5755FE;
+  color: white;
+}
+
+.navbar-brand, .navbar-nav .nav-link, .dropdown-menu .dropdown-item {
+  font-weight: bold;
+  font-size: 16px; 
+}
+
+.navbar-nav {
+  margin: 0 auto;
+  color: #5755FE;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px; 
+  margin-left: 50px; 
+}
+
+.dropdown-menu .dropdown-item {
+  color:black; 
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: white;
+}
+footer {
+  background-color: #d47319;
+  color: #fff;
+  padding: 40px 0;
+  margin-top: auto; /* Esto hace que el footer se pegue a la parte inferior del contenedor padre (el body en este caso) */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+
+.footer-logo img {
+  width: 100px;
+  border-radius: 50px;
+}
+
+.footer-logo p {
+  font-size: 20px;
+  margin-top: 20px;
+  
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-contact {
+  max-width: 250px;
+  
+}
+
+.footer-contact h3 {
+  margin-bottom: 10px;
+  font-weight: bold;
+  border-bottom: 5px solid #fcc726;
+}
+
+.footer-contact p {
+  margin-bottom: 10px;
+  
+}
+
+.footer-bottom {
+  background-color: #110b38;
+  border-bottom: 5px  solid #5755FE;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0; 
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-social h3 {
+  font-size: 25px; 
+  margin-bottom: 10px; 
+  font-weight: bold;
+  border-bottom: 5px solid #fcc726;
+}
+
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+}
+
+.footer-social ul li {
+  margin: 1px; 
+}
+
+.footer-social ul li a img {
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%; 
+  transition: transform 0.3s ease; 
+}
+
+.footer-social ul li a img:hover {
+  transform: scale(1.2); 
+}
+
