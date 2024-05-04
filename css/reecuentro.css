@@ -1,0 +1,59 @@
+.opiniones .caja_contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.opiniones h3{
+    font-size: 2.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.opiniones .caja_contenedor .caja{
+    background: white;
+    margin: 1rem;
+    padding: .5rem;
+    text-align: center;
+    position: relative;
+    border: .1rem solid rgb(0, 0, 0, .2);
+    box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .1); 
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+}
+
+.opiniones .caja_contenedor .caja .fa-heart{
+    position: absolute;
+    top: .5rem;
+    right: 2rem;
+    font-size: 5rem;
+    /* color: var(--limon); */
+    color: red;
+    opacity: .3;
+}
+
+.opiniones .caja_contenedor .caja .user img{
+    border-radius: 10%;
+    object-fit: cover;
+    height: 20rem;
+    width: 25rem;
+    margin-top: 1.5rem;
+}
+.opiniones .caja_contenedor .caja h5{
+    color: var(--verde);
+    font-size: 2rem;
+
+}
+
+.opiniones .caja_contenedor .caja .user .stars i{
+    color: var(--verde);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.opiniones .caja_contenedor .caja .comentarios{
+    color: #666;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
