@@ -90,7 +90,7 @@
     
   } */
 
-  input {
+  .search-section input {
     outline: none;
     box-sizing: border-box;
     height: 35px;
