@@ -54,6 +54,7 @@
     padding: 1rem;
     margin-top: 1.5rem;
     border-radius: .5rem;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
 }
 
 
@@ -276,9 +277,10 @@
 
 .publicacion-realizada {
     margin-bottom: 1.5rem;
-    background-color: #f0e9e9;
+    /*background-color: #be9090;*/
     padding: 1rem;
-    box-shadow: 0 .3rem .3rem rgb(0, 0, 0, .1);
+    /* box-shadow: 0 .3rem .3rem rgba(150, 72, 72, 0.1); */
+    box-shadow: 0 .3rem .3rem rgba(223, 119, 21, 0.4);
     border-radius: .3rem;
 }
 

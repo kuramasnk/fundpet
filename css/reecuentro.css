@@ -19,7 +19,8 @@
     text-align: center;
     position: relative;
     border: .1rem solid rgb(0, 0, 0, .2);
-    box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .1); 
+    /* box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .1);  */
+    box-shadow: 0 .3rem .3rem rgba(223, 119, 21, 0.4);
     flex: 1 1 30rem;
     border-radius: .5rem;
 }
