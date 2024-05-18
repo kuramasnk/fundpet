@@ -58,6 +58,12 @@ body {
   text-align: center;
 }
 
+@media screen and (max-width: 1500px) {
+  .encabezado {
+    height: 500px; 
+    width: 100%;
+  }
+}
 .encabezado .textos {
   margin-top: 252px;
 }
@@ -71,34 +77,80 @@ body {
   font-weight: bold;
 }
 
-.banner {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-.encabezado3 h2{
-  font-size: 45px;
-  text-align: center;
-  margin: 55px;
+.encabezado3 {
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px; 
 }
 
 .descripcion {
-  font-size: 35px;
-  color: #333;
-  margin-bottom: 20px;
-  padding: 0 20px;
-
-}
-
-.descripcion p {
-  margin: 10px 0;
+  background-color: #f2f2f2;
+  padding: 12px;
+  font-family: 'Permanent Marker'; 
+  font-size: 35px; /* Tamaño de fuente */
+  line-height: 2.5; /* Altura de línea */
+  text-align: center;
   
 }
 
-.banner{
-  max-width: 100%;
-  height: auto;
+.encabezado3 h2 {
+  font-size: 24px; 
+  margin: 0; 
 }
+
+.banner {
+  display: block; 
+}
+
+@media screen and (max-width: 1500px) {
+  .banner {
+    display: none; 
+  }
+}
+@media screen and (max-width: 1500px) {
+  .encabezado {
+    height: 500px; 
+    width: 100%;
+  }
+
+  .encabezado .subtitulo {
+    font-size: 50px;
+    font-weight: 300;
+    text-shadow: black 5px 5px 15px;
+    font-weight: bold;
+    margin: 5px;
+  }
+
+}
+/* Media queries para dispositivos móviles */
+@media (max-width: 767px) {
+
+ .encabezado .subtitulo{
+  font-size: 35px;
+  font-weight: 300;
+  text-shadow: black 5px 5px 15px;
+  font-weight: bold;
+  margin: 5px;
+ }
+
+  .encabezado3 h2 {
+    font-size: 20px; 
+    margin: 10px; 
+  }
+
+  .descripcion {
+    font-size: 25px; 
+    margin-bottom: 10px; 
+    padding: 0 10px; 
+  }
+
+  .descripcion p {
+    margin: 10px 0; 
+  }
+}
+
+
+
 /*CARD CATALOGO*/
 .contenedor {
   display: flex;
@@ -328,29 +380,3 @@ footer {
   }
 }
 
-/* Media queries para dispositivos móviles */
-@media (max-width: 767px) {
-  .encabezado .textos {
-    margin-top: 20px; /* Ajuste el margen superior para dispositivos móviles */
-  }
-
-  .encabezado .subtitulo {
-    font-size: 20px; /* Reduzca más el tamaño del texto para dispositivos móviles */
-    margin: 10px; /* Ajuste más el margen para dispositivos móviles */
-  }
-
-  .encabezado3 h2 {
-    font-size: 20px; /* Reduzca más el tamaño del texto para dispositivos móviles */
-    margin: 10px; /* Ajuste más el margen para dispositivos móviles */
-  }
-
-  .descripcion {
-    font-size: 18px; /* Reduzca más el tamaño del texto para dispositivos móviles */
-    margin-bottom: 10px; /* Ajuste más el margen inferior para dispositivos móviles */
-    padding: 0 10px; /* Ajuste más el relleno a los lados para dispositivos móviles */
-  }
-
-  .descripcion p {
-    margin: 10px 0; /* Ajuste más el margen para dispositivos móviles */
-  }
-}

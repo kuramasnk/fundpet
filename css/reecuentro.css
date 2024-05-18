@@ -1,3 +1,9 @@
+.heading{
+    text-align: center;
+    margin: 95px;
+    font-family: "Permanent Marker";
+}
+
 .opiniones .caja_contenedor{
     display: flex;
     align-items: center;
