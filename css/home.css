@@ -14,7 +14,14 @@
     overflow: hidden;
     max-width: 600px;
     margin: 5px auto;
+    transition: all 400ms ease;
     
+  }
+
+  .pet-card:hover{
+    box-shadow: 5px 5px 20px rgba(17,11,56, 2);
+    transform: translateY(-3%);
+    transform: scale(1.15);
   }
 
   .content-pet{
