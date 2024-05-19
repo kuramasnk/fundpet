@@ -1,26 +1,28 @@
-.heading{
+.heading {
     text-align: center;
     margin: 95px;
     font-family: "Permanent Marker";
+    font-size: 2.5rem;
 }
 
-.opiniones .caja_contenedor{
+.opiniones .caja_contenedor {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.titulo{
+.titulo {
     display: flex;
     justify-content: center;
 }
-.titulo h3{
+
+.titulo h3 {
     font-size: 2.5rem;
-    
+
 }
 
-.opiniones .caja_contenedor .caja{
+.opiniones .caja_contenedor .caja {
     background: white;
     margin: 1rem;
     padding: .5rem;
@@ -34,11 +36,12 @@
     transition: all 400ms ease;
 }
 
-.opiniones .caja_contenedor .caja:hover{
-    box-shadow: 5px 5px 20px rgba(17,11,56, 2);
+.opiniones .caja_contenedor .caja:hover {
+    box-shadow: 5px 5px 20px rgba(17, 11, 56, 2);
     transform: translateY(-3%);
 }
-.opiniones .caja_contenedor .caja .fa-heart{
+
+.opiniones .caja_contenedor .caja .fa-heart {
     position: absolute;
     top: .5rem;
     right: 2rem;
@@ -47,25 +50,74 @@
     opacity: .6;
 }
 
-.opiniones .caja_contenedor .caja .user img{
+.opiniones .caja_contenedor .caja .user img {
     border-radius: 10%;
     object-fit: cover;
     height: 20rem;
     width: 25rem;
     margin-top: 1.5rem;
 }
-.opiniones .caja_contenedor .caja h5{
+
+.opiniones .caja_contenedor .caja h5 {
     font-size: 2rem;
 
 }
 
-.opiniones .caja_contenedor .caja .user .stars i{
+.opiniones .caja_contenedor .caja .user .stars i {
     font-size: 1.5rem;
     padding: 1rem 0;
-    
+
 }
-.opiniones .caja_contenedor .caja .comentarios{
+
+.opiniones .caja_contenedor .caja .comentarios {
     color: #666;
     font-size: 1.5rem;
     padding: 1rem;
+}
+
+.motivacion h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 85px;
+    font-family: "Permanent Marker";
+}
+.video-container {
+    margin: 20px;
+}
+
+.video-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Permanent Marker";
+    margin: 75px;
+}
+
+.video-wrapper {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.video-wrapper iframe {
+    width: calc(33.333% - 20px); 
+    margin: 0 10px 20px; 
+}
+
+@media (max-width: 768px) {
+    .video-wrapper {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .video-wrapper iframe {
+        width: 100%; 
+        margin: 0 0 20px;
+    }
+    .motivacion h3 {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 45px;
+        font-family: "Permanent Marker";
+    }
 }
