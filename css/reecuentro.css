@@ -1,3 +1,9 @@
+.heading{
+    text-align: center;
+    margin: 95px;
+    font-family: "Permanent Marker";
+}
+
 .opiniones .caja_contenedor{
     display: flex;
     align-items: center;
@@ -25,14 +31,18 @@
     box-shadow: 0 .3rem .3rem rgba(223, 119, 21, 0.4);
     flex: 1 1 30rem;
     border-radius: .5rem;
+    transition: all 400ms ease;
 }
 
+.opiniones .caja_contenedor .caja:hover{
+    box-shadow: 5px 5px 20px rgba(17,11,56, 2);
+    transform: translateY(-3%);
+}
 .opiniones .caja_contenedor .caja .fa-heart{
     position: absolute;
     top: .5rem;
     right: 2rem;
     font-size: 5rem;
-    /* color: var(--limon); */
     color: red;
     opacity: .6;
 }
@@ -45,15 +55,14 @@
     margin-top: 1.5rem;
 }
 .opiniones .caja_contenedor .caja h5{
-    color: var(--verde);
     font-size: 2rem;
 
 }
 
 .opiniones .caja_contenedor .caja .user .stars i{
-    color: var(--verde);
     font-size: 1.5rem;
     padding: 1rem 0;
+    
 }
 .opiniones .caja_contenedor .caja .comentarios{
     color: #666;
