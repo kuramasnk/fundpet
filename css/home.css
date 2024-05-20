@@ -169,3 +169,31 @@
   #busqueda-tipo:hover {
     background-color: #d47319;
   }
+
+  /* paginas responsive */
+  @media (max-width: 576px) {
+    /* Estilos para teléfonos móviles */
+
+
+    .pet-image {
+      width: 100%;
+      /*height: 200px;*/
+      object-fit: cover;
+      padding-top: 5px;
+    }
+
+    .content-pet{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .pet-info {
+      background-color: #e0b114;
+      display: flex;
+      flex-direction: column;
+      padding: .5rem;
+      font-size: 16px;
+      width: 100%;
+      
+    }
+  }
