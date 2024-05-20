@@ -14,11 +14,12 @@
     margin-right: auto;
     padding: 1rem;
     border-color: #D47319;
-    
+
 }
+
 /*pUBLICACION*/
 
-.area-comentar{
+.area-comentar {
     background-color: #FFFF;
     display: flex;
     flex-wrap: wrap;
@@ -28,11 +29,13 @@
     border-radius: 12px;
 }
 
-.area-comentar, .inputs-comentarios{
+.area-comentar,
+.inputs-comentarios {
     margin-left: 0.1rem;
 }
 
-.area-comentar, .inputs-comentarios{
+.area-comentar,
+.inputs-comentarios {
     border: 0;
     background-color: #F0F0F0;
     display: block;
@@ -40,12 +43,14 @@
     border-radius: 12px;
     margin-bottom: .5rem;
 }
-.area-comentario{
+
+.area-comentario {
     width: 85%;
     height: 5rem;
     border-radius: 12px;
 }
-.contenedor-comentarios{
+
+.contenedor-comentarios {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -59,7 +64,7 @@
 
 
 
-.comentarios-usuarios{
+.comentarios-usuarios {
     width: calc(100% - 2.5rem);
 }
 
@@ -78,6 +83,7 @@
     border-radius: 50%;
     overflow: hidden;
 }
+
 .comentarios-usuarios .nombre-usuario {
     font-weight: bold;
     margin-right: .5rem;
@@ -85,14 +91,16 @@
 }
 
 /*Botones comentar*/
-.boton-subir-archivo{
+.boton-subir-archivo {
     position: relative;
     display: inline-block;
 }
-.boton-subir-archivo input[type="file"]{
-    appearance: none;
+
+.boton-subir-archivo input[type="file"] {
+
     -webkit-appearance: none;
     -moz-appearance: none;
+    appearance: none;
     position: absolute;
     opacity: 0;
     visibility: hidden;
@@ -100,6 +108,7 @@
     height: 0;
 
 }
+
 .boton-file,
 .boton-enviar {
     display: inline-block;
@@ -112,10 +121,12 @@
     cursor: pointer;
     transition: background-color ease-in 200ms;
 }
+
 .boton-file:hover,
 .boton-enviar:hover {
     background-color: #D47319;
 }
+
 /*fin */
 .contenedor-comentarios .comentario-principal-usuario .comentario,
 .area-comentar .inputs-comentarios {
@@ -123,6 +134,7 @@
     flex-basis: 0;
     margin-left: .5rem;
 }
+
 /*.contenedor-comentarios .comentario-principal-usuario .texto,
 .area-comentar .inputs-comentarios .area-comentario {
     border: 2px;
@@ -137,18 +149,19 @@
 
 
 /*comentarios de usuario*/
-.comentarios-usuarios .comentario-principal-usuario{
+.comentarios-usuarios .comentario-principal-usuario {
     display: flex;
     flex-wrap: wrap;
 }
 
-.comentarios-usuarios .usuario-comentario{
+.comentarios-usuarios .usuario-comentario {
     width: 100%;
     display: block;
     margin-bottom: 0.75rem;
     position: relative;
 }
-.menu-comentario{
+
+.menu-comentario {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -160,11 +173,12 @@
     cursor: pointer;
 }
 
-.comentarios-usuarios .usuario-comentario .menu-comentario{
+.comentarios-usuarios .usuario-comentario .menu-comentario {
     top: 5px;
     right: -15px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .4);
 }
+
 .comentarios-usuarios .usuario-comentario:hover .menu-comentario {
     display: flex;
 }
@@ -174,7 +188,7 @@
     right: 0;
 }
 
-.menu-comentario .menu{
+.menu-comentario .menu {
     list-style: none;
     position: absolute;
     right: 100%;
@@ -219,6 +233,7 @@
     position: relative;
     padding-right: 1.65rem;
 }
+
 /*.............*/
 .comentarios-usuarios .comentario-principal-usuario .comentar-comentario {
     width: 100%;
@@ -273,6 +288,7 @@
 .boton-responder i {
     margin-right: .5rem;
 }
+
 /*publicacion realizada*/
 
 .publicacion-realizada {
@@ -291,6 +307,7 @@
     margin-bottom: .5rem;
     position: relative;
 }
+
 .publicacion-realizada .usuario-publico .contenido-publicacion {
     margin-left: 1rem;
 }
@@ -299,6 +316,7 @@
     display: flex;
     width: 100%;
 }
+
 .comentar-publicacion .comentar-comentario {
     flex-grow: 1;
     flex-basis: 0;
@@ -311,7 +329,7 @@
     font-size: 0.9em;
 }
 
-.archivo-publicado{
+.archivo-publicado {
     display: flex;
     align-items: center;
     justify-content: center;
